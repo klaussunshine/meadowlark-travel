@@ -8,6 +8,6 @@ var fortuneCookies = [
 ];
 
 exports.getFortune = function() {
-    var idx = Math.floor(MAth.random() * fortuneCookies.length);
+    var idx = Math.floor(Math.random() * fortuneCookies.length);
     return fortuneCookies[idx];
 };
